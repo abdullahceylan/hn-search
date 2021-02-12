@@ -2,7 +2,7 @@ source 'https://rubygems.org'
 
 ruby '2.2.7'
 
-gem 'rails', '~> 4.2.7'
+gem 'rails', '~> 6.0.3', '>= 6.0.3.5'
 gem 'sass-rails'
 gem 'uglifier', '>= 1.3.0'
 gem 'jquery-rails'
@@ -75,5 +75,5 @@ group :development, :test do
   gem 'factory_girl_rails'
 end
 group :test do
-  gem 'minitest-spec-rails'
+  gem 'minitest-spec-rails', '>= 5.4.0'
 end
