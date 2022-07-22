@@ -2,11 +2,11 @@ source 'https://rubygems.org'
 
 ruby '2.2.7'
 
-gem 'rails', '~> 4.2.7'
+gem 'rails', '~> 4.2.10'
 gem 'sass-rails'
 gem 'uglifier', '>= 1.3.0'
 gem 'jquery-rails'
-gem 'jbuilder', '~> 1.2'
+gem 'jbuilder', '~> 1.5', '>= 1.5.3'
 gem 'figaro'
 gem 'haml-rails'
 gem 'bitters'
