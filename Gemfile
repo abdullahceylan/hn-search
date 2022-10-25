@@ -2,7 +2,7 @@ source 'https://rubygems.org'
 
 ruby '2.2.7'
 
-gem 'rails', '~> 4.2.7'
+gem 'rails', '~> 4.2.10'
 gem 'sass-rails'
 gem 'uglifier', '>= 1.3.0'
 gem 'jquery-rails'
