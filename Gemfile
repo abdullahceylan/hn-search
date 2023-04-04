@@ -2,11 +2,11 @@ source 'https://rubygems.org'
 
 ruby '2.2.7'
 
-gem 'rails', '~> 4.2.7'
-gem 'sass-rails'
+gem 'rails', '~> 6.1.7', '>= 6.1.7.3'
+gem 'sass-rails', '>= 6.0.0'
 gem 'uglifier', '>= 1.3.0'
-gem 'jquery-rails'
-gem 'jbuilder', '~> 1.2'
+gem 'jquery-rails', '>= 4.4.0'
+gem 'jbuilder', '~> 1.5', '>= 1.5.3'
 gem 'figaro'
 gem 'haml-rails'
 gem 'bitters'
@@ -16,28 +16,28 @@ gem 'therubyracer', '0.12.2'
 gem 'hogan_assets'
 gem 'jquery-cookie-rails'
 gem 'algoliasearch-rails', '~> 1.19.1'
-gem 'aws-sdk', '~> 3.0'
+gem 'aws-sdk', '~> 3.0', '>= 3.0.1'
 gem 'open_uri_redirections'
 gem 'simple_enum', '~> 1.6.9'
 gem 'whenever'
 gem 'thin'
 gem 'rails-api'
-gem 'active_model_serializers'
-gem 'delayed_job_active_record'
+gem 'active_model_serializers', '>= 0.10.12'
+gem 'delayed_job_active_record', '>= 4.1.5'
 gem 'bluepill'
 gem 'groupdate', git: 'https://github.com/mieko/groupdate.git', branch: 'sqlite3'
 gem 'simple-rss'
 gem 'rest-client'
 gem 'angularjs-rails', '1.5.8'
 gem 'angular_xss'
-gem 'angular-rails-templates'
-gem 'actionpack-action_caching'
+gem 'angular-rails-templates', '>= 1.1.0'
+gem 'actionpack-action_caching', '>= 1.2.1'
 gem 'turnout'
 
 gem 'firebase', '0.2.2'
 gem "eventmachine"
-gem "em-http-request"
-gem "httparty"
+gem "em-http-request", ">= 1.1.6"
+gem "httparty", ">= 0.21.0"
 gem 'statsd-ruby'
 
 group :development do
@@ -49,7 +49,7 @@ group :development do
   gem 'capistrano', '< 3.0.0'
   gem 'rvm-capistrano', require: false
   gem 'sqlite3'
-  gem 'better_errors'
+  gem 'better_errors', '>= 2.8.0'
   gem 'binding_of_caller', :platforms=>[:mri_19, :mri_20, :mri_21, :rbx]
   gem 'html2haml'
   gem 'quiet_assets'
