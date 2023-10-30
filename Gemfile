@@ -30,7 +30,7 @@ gem 'simple-rss'
 gem 'rest-client'
 gem 'angularjs-rails', '1.5.8'
 gem 'angular_xss'
-gem 'angular-rails-templates'
+gem 'angular-rails-templates', '>= 1.2.1'
 gem 'actionpack-action_caching'
 gem 'turnout'
 
