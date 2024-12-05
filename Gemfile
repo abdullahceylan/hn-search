@@ -2,13 +2,13 @@ source 'https://rubygems.org'
 
 ruby '2.2.7'
 
-gem 'rails', '~> 4.2.7'
-gem 'sass-rails'
+gem 'rails', '~> 7.0.0'
+gem 'sass-rails', '>= 6.0.0'
 gem 'uglifier', '>= 1.3.0'
 gem 'jquery-rails'
 gem 'jbuilder', '~> 1.2'
 gem 'figaro'
-gem 'haml-rails'
+gem 'haml-rails', '>= 2.1.0'
 gem 'bitters'
 gem 'bourbon'
 gem 'neat'
@@ -75,5 +75,5 @@ group :development, :test do
   gem 'factory_girl_rails'
 end
 group :test do
-  gem 'minitest-spec-rails'
+  gem 'minitest-spec-rails', '>= 6.0.1'
 end
