@@ -2,7 +2,7 @@ source 'https://rubygems.org'
 
 ruby '2.2.7'
 
-gem 'rails', '~> 4.2.7'
+gem 'rails', '~> 7.1.5', '>= 7.1.5.2'
 gem 'sass-rails'
 gem 'uglifier', '>= 1.3.0'
 gem 'jquery-rails'
@@ -23,7 +23,7 @@ gem 'whenever'
 gem 'thin'
 gem 'rails-api'
 gem 'active_model_serializers'
-gem 'delayed_job_active_record'
+gem 'delayed_job_active_record', '>= 4.1.7'
 gem 'bluepill'
 gem 'groupdate', git: 'https://github.com/mieko/groupdate.git', branch: 'sqlite3'
 gem 'simple-rss'
@@ -75,5 +75,5 @@ group :development, :test do
   gem 'factory_girl_rails'
 end
 group :test do
-  gem 'minitest-spec-rails'
+  gem 'minitest-spec-rails', '>= 5.5.0'
 end
